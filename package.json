@@ -1,0 +1,22 @@
+{
+  "name": "testcafe.io-js",
+  "version": "1.0.0",
+  "description": "Projeto de estudos de automação de testes com TestCafe",
+  "main": "index.js",
+  "scripts": {
+    "interact": "testcafe chrome tests/interact",
+    "select": "testcafe chrome tests/select",
+    "assert": "testcafe chrome tests/assert"
+  },
+  "keywords": [
+    "TestCafe",
+    "Test Automation",
+    "Javascript",
+    "Node"
+  ],
+  "author": "Gustavo Cardoso",
+  "license": "MIT",
+  "devDependencies": {
+    "testcafe": "^1.18.4"
+  }
+}
