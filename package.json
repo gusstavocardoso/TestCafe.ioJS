@@ -6,7 +6,8 @@
   "scripts": {
     "interact": "testcafe chrome tests/interact",
     "select": "testcafe chrome tests/select",
-    "assert": "testcafe chrome tests/assert"
+    "assert": "testcafe chrome tests/assert",
+    "test":  "testcafe chrome tests/page-test.js"
   },
   "keywords": [
     "TestCafe",
