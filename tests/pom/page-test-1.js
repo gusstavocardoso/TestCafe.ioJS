@@ -1,6 +1,6 @@
 import { Selector } from 'testcafe';
 
-import Page from '../pages/page-model.js';
+import Page from '../../pages/page-model-1.js';
 
 fixture `Page Model`
     .page `https://devexpress.github.io/testcafe/example/`;
